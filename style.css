@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    text-align: center;
+    width: 500px;
+    background: rgb(165, 187, 219);
+}
+
+.name{
+    margin: 0;
+    font-size: 25px;
+    
+}
+.name:hover{
+    color: rgb(25, 45, 221);
+    background: rgb(97, 136, 221);
+}
+
+.surname{
+    margin: 0;
+    font-size: 25px; 
+}
+.surname:hover{
+    color: rgb(25, 45, 221);
+    background: rgb(97, 136, 221);
+}
+.age{
+    margin: 0;
+    font-size: 25px;  
+}
+.age:hover{
+    color: rgb(25, 45, 221);
+    background: rgb(97, 136, 221);
+}
+.mood{
+    margin: 0;
+    font-size: 25px; 
+}
+.mood:hover{
+    color: rgb(25, 45, 221);
+    background: rgb(97, 136, 221);
+}
